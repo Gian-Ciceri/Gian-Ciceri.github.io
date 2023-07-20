@@ -1,7 +1,161 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Un sito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <a href="https://github.com/Gian-Ciceri"><img class="logo" src="../img/github.png" alt="logo"></a>
+        <a href="https://leetcode.com/gianfabri3103/"><img class="logo2" src="../img/LeetCode_logo_black.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#me">Chi sono</a></li>
+                <li><a href="#backend">Backend</a></li>
+                <li><a href="#frontend">frontend</a></li>
+                <li><a href="#database">database</a></li>
+                <li><a href="#oop">oop</a></li>
+            </ul>
+        </nav>
+        <a href="mailto:gianfabri3103@gmail.com?subject=Titolo&body="><button>Contattami</button></a>
+    </header>
+    <div id="mybutton">
+        <a href="#top"><button id="myBtn" title="Go to top">Top</button></a>
+    </div>
+    <div class="card-container">
+                                    <!--Carta 1:ME, Carta 2: Backend, Carta 3: Frontend, Carta 4: Database, Carta 5: Oop-->
+        <div class="card-1" id="me"><!--Carta 1-->
+            <div class="card-image-1">
+                <img src="../img/246168850_4787501154613533_2739275306387757333_n.jpg" alt="image" />
+            </div>
+            <div class="card-text-1">
+                <h2>Ciao</h2>
+                <p>Ciao! Mi chiamo Gianluca Ciceri e mi piacciono i gatti.<p>
+            </div>
+        </div><!--Carta 1-->
+        <div class="card-2" id="backend"><!--Carta 2-->
+            <div class="card-image-2">
+                <img src="../img/Python-logo-notext.svg.png" alt="image" />
+            </div>
+            <div class="card-text-2" id="backend">
+                <h2>Python</h2>
+                <p>Python è un linguaggio di programmazione interpretato, di alto livello, 
+                    generico e orientato agli oggetti.
+                    è un linguaggio versatile e potente, 
+                    che può essere utilizzato per una vasta gamma di applicazioni, tra cui:
+                    <br><br>
+                <p>
+                <ul>
+                    <li>Sviluppo web</li>
+                    <li>Data science</li>
+                    <li>Machine learning</li>
+                    <li>Artificial intelligence</li>
+                    <li>Computational science</li>
+                    <li>Software engineering</li>
+                    <li>Scripting</li>
+                    <li>Education</li>
+                </ul>
+            </div>
+        </div><!--Carta 2-->
+        <div class="card-2"><!--Carta 2-->
+            <div class="card-image-2">
+                <img src="../img/java.png" alt="image" />
+            </div>
+            <div class="card-text-2">
+                <h2>Java</h2>
+                <p>Java è un linguaggio di programmazione orientato agli oggetti, compilato e di tipo forte.
+                    È un linguaggio popolare per lo sviluppo di applicazioni client, server e mobili.
+                    Può essere utilizzato per sviluppare una vasta gamma di applicazioni, tra cui:
+                    <br><br>
+                <p>
+                        <ul>
+                            <li>Applicazioni desktop</li>
+                            <li>Applicazioni web</li>
+                            <li>Applicazioni mobili</li>
+                            <li>Applicazioni di elaborazione dati</li>
+                            <li>Applicazioni di intelligenza artificiale</li>
+                            <li>Applicazioni di machine learning</li>
+                        </ul>
+            </div>
+        </div><!--Carta 2-->
+        <div class="card-3" id="frontend"><!--Carta 3-->
+            <div class="card-image-3">
+                <img src="../img/HTML5_logo_and_wordmark.svg.png" alt="image" />
+            </div>
+            <div class="card-text-3">
+                <h2>HTML</h2>
+                <p> HTML è l'acronimo di HyperText Markup Language. 
+                    È un linguaggio di markup che viene utilizzato per creare pagine web.
+                    Ecco alcuni dei vantaggi dell'utilizzo di HTML:
+                    <br><br>
+                <p>
+                        <ul>
+                            <li>È facile da imparare e da usare</li>
+                            <li>È un linguaggio universale, che può essere utilizzato su qualsiasi browser web</li>
+                            <li>È open source, quindi è gratuito e disponibile a chiunque</li>
+                            <li>È un linguaggio potente, che può essere utilizzato per creare pagine web complesse e interattive</li>
+                        </ul>
+            </div>
+        </div><!--Carta 3-->
+        <div class="card-3" ><!--Carta 3-->
+            <div class="card-image-3">
+                <img src="../img/javascript-logo-transparent-logo-javascript-images-3.png" alt="image" />
+            </div>
+            <div class="card-text-3">
+                <h2>JavaScript</h2>
+                <p> JavaScript è un linguaggio di programmazione interpretato, lato client, 
+                    che viene utilizzato per aggiungere interattività alle pagine web.
+                    è uno dei linguaggi di programmazione web più popolari al mondo.
+                    Ecco alcuni dei vantaggi dell'utilizzo di JavaScript:
+                    <br><br>
+                <p>
+                        <ul>
+                            <li>È facile da imparare e da usare</li>
+                            <li>È un linguaggio potente e versatile che può essere utilizzato per creare una vasta gamma di applicazioni web.</li>
+                            <li>È open source, quindi è gratuito e disponibile a chiunque</li>
+                            <li>È supportato da tutti i principali browser web.</li>
+                        </ul>
+            </div>
+        </div><!--Carta 4-->
+        <div class="card-4" ><!--Carta 4-->
+            <div class="card-image-4" id="database">
+                <img src="../img/png-clipart-mysql-mysql.png" alt="image" />
+            </div>
+            <div class="card-text-4">
+                <h2>MySQL</h2>
+                <p> MySQL è un sistema di gestione di database relazionale (RDBMS) open source e gratuito. 
+                    È uno dei database relazionali più popolari al mondo ed è utilizzato da aziende di tutte le dimensioni. 
+                    MySQL è un database relazionale, 
+                    il che significa che i dati sono memorizzati in tabelle e le tabelle sono collegate tra loro da relazioni.
+                    MySQL è un database potente e versatile che può essere utilizzato per una vasta gamma di applicazioni, tra cui:
+                    <br><br>
+                <p>
+                        <ul>
+                            <li>Siti web</li>
+                            <li>Applicazioni web</li>
+                            <li>Applicazioni mobili</li>
+                            <li>Applicazioni di elaborazione dati</li>
+                            <li>Applicazioni di business intelligence</li>
+                            <li>Applicazioni di analisi</li>
+                        </ul>
+            </div>
+        </div><!--Carta 4-->
+        <div class="card-5" ><!--Carta 5-->
+            <div class="card-image-5" id="oop">
+                <img src="../img/javascript-logo-transparent-logo-javascript-images-3.png" alt="image" />
+            </div>
+            <div class="card-text-5">
+                <h2>Test OOP</h2>
+                <p> Test testone<p>
+                        <ul>
+                            <li>lista</li>
+                        </ul>
+            </div>
+        </div><!--Carta 5-->
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
 </body>
-</html>
+</html> 
